@@ -1,5 +1,3 @@
-// src/api/home-page/controllers/home-page.ts
-
 import { factories } from '@strapi/strapi';
 
 /**
