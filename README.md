@@ -10,13 +10,13 @@ Siga estes passos para configurar e rodar o projeto localmente com os dados inic
 
 ### Pré-requisitos
 - [Node.js](https://nodejs.org/) (versão 18.x ou superior)
-- `npm` ou `yarn`
+- `npm`
 
 ### 1. Clone o Repositório
 
 ```bash
 git clone [https://github.com/gabsrethink/rethink-airport-server.git]
-cd [rethink-airport-server]
+cd rethink-airport-server
 ```
 
 ### 2. Instale as Dependências
