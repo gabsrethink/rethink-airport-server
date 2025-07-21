@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_car_reservation_banners",
+  "info": {
+    "displayName": "Car Reservation Banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
