@@ -15,7 +15,7 @@ Siga estes passos para configurar e rodar o projeto localmente com os dados inic
 ### 1. Clone o Repositório
 
 ```bash
-git clone [https://github.com/gabsrethink/rethink-airport-server.git]
+git clone https://github.com/gabsrethink/rethink-airport-server.git
 cd rethink-airport-server
 ```
 
@@ -31,7 +31,7 @@ Este passo é **crucial** para popular seu banco de dados local com o conteúdo 
 
 Execute o seguinte comando no terminal:
 ```bash
-npm run strapi import -f export_20250721172400.tar.gz -- --force
+npm run strapi -- import -f export_20250721172400.tar.gz --force
 ```
 > **Nota:** Se a importação falhar, tente apagar a pasta `.tmp` que o Strapi cria e execute o comando de importação novamente.
 
